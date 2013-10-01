@@ -8,7 +8,7 @@ About
 
 Zappify is a sample app that I wrote as a challenge for Zappos.  It makes use of their Search, AutoComplete, and CoreValue APIs.  You are able to search for items from Zappos.com and have the displayed along with important information about it.  You can then enter you email address to be notified when the item discounted to your desired price (default is 20% off).  It will check every hour for updated pricing.
 
-[SendGrid](www.sendgrid.com) is used to send the email notifications.
+[SendGrid](http://www.sendgrid.com) is used to send the email notifications.
 
 
 ###Note
