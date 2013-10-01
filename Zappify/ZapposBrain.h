@@ -15,8 +15,11 @@
 
 // Handy macros
 #define zapposBrain [ZapposBrain sharedZapposBrain]
+
 #warning Add your API key here
 #define API_KEY @"&key=YOUR_API_KEY_HERE"
+#define SG_USERNAME @"YOUR_USERNAME_HERE"
+#define SG_PASSWORD @"YOUR_SENDGRID_PASSWORD_HERE"
 
 #import <Foundation/Foundation.h>
 #import "ZapposItem.h"

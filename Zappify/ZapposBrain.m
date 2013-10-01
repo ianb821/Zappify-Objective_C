@@ -130,7 +130,7 @@
         }
         
         // create the call to the SendGrid API to send an email notification
-        NSString * urlString = [NSString stringWithFormat:@"https://sendgrid.com/api/mail.send.json?api_user=ianb821&api_key=sendgridpass1&to=%@&subject=%@&text=%@%@&from=ianb821@gmail.com", item.emailAddressToAlert, subjectForEmail , textBodyForEmail, coreValueForEmail];
+        NSString * urlString = [NSString stringWithFormat:@"https://sendgrid.com/api/mail.send.json?api_user=%@&api_key=%@&to=%@&subject=%@&text=%@%@&from=ianb821@gmail.com", SG_USERNAME, SG_PASSWORD item.emailAddressToAlert, subjectForEmail , textBodyForEmail, coreValueForEmail];
         
         
         [self getJSONDataFromRequest:[NSURL URLWithString:urlString] completionBlock:^(NSURL *request, NSDictionary *emailResultsDictionary, NSError *error) {
