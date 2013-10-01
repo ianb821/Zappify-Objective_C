@@ -15,3 +15,18 @@ To actually use the project, make sure to put your Zappos API Key in the constan
 
 Images
 ============
+
+####AutoComplete View:
+![Standard View](https://raw.github.com/ianb821/Zappify-Objective_C/master/Images/AutoComplete.png)
+
+####Search Results View:
+![Standard View](https://raw.github.com/ianb821/Zappify-Objective_C/master/Images/NikeGolf.png)
+
+####Starred Item View:
+![Standard View](https://raw.github.com/ianb821/Zappify-Objective_C/master/Images/StarredItem.png)
+
+####Favorite Items View:
+![Standard View](https://raw.github.com/ianb821/Zappify-Objective_C/master/Images/FavoriteItems.png)
+
+####Stop Monitoring Item View:
+![Standard View](https://raw.github.com/ianb821/Zappify-Objective_C/master/Images/ItemView.png)
