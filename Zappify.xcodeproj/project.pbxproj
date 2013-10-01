@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045D867E17EDF5E00026207C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045D867D17EDF5E00026207C /* Foundation.framework */; };
+		045D868017EDF5E00026207C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045D867F17EDF5E00026207C /* CoreGraphics.framework */; };
+		045D868217EDF5E00026207C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045D868117EDF5E00026207C /* UIKit.framework */; };
+		045D868817EDF5E00026207C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 045D868617EDF5E00026207C /* InfoPlist.strings */; };
+		045D868A17EDF5E00026207C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D868917EDF5E00026207C /* main.m */; };
+		045D868E17EDF5E10026207C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D868D17EDF5E10026207C /* AppDelegate.m */; };
+		045D869117EDF5E10026207C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045D868F17EDF5E10026207C /* Main.storyboard */; };
+		045D869917EDF5E20026207C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045D869817EDF5E20026207C /* Images.xcassets */; };
+		045D86A017EDF5E30026207C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045D869F17EDF5E30026207C /* XCTest.framework */; };
+		045D86A117EDF5E30026207C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045D867D17EDF5E00026207C /* Foundation.framework */; };
+		045D86A217EDF5E30026207C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045D868117EDF5E00026207C /* UIKit.framework */; };
+		045D86AA17EDF5E30026207C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 045D86A817EDF5E30026207C /* InfoPlist.strings */; };
+		045D86AC17EDF5E40026207C /* ZappifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D86AB17EDF5E40026207C /* ZappifyTests.m */; };
+		045D86B717EDF6270026207C /* IBRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D86B617EDF6270026207C /* IBRoundedButton.m */; };
+		045D86C417EDF6310026207C /* ZapposSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D86B917EDF6310026207C /* ZapposSearchViewController.m */; };
+		045D86C517EDF6310026207C /* ZapposFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D86BB17EDF6310026207C /* ZapposFavoritesViewController.m */; };
+		045D86C617EDF6310026207C /* ZapposItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D86BD17EDF6310026207C /* ZapposItemView.m */; };
+		045D86C717EDF6310026207C /* ZapposItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D86BF17EDF6310026207C /* ZapposItemCell.m */; };
+		045D86C817EDF6310026207C /* ZapposBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D86C117EDF6310026207C /* ZapposBrain.m */; };
+		045D86C917EDF6310026207C /* ZapposItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D86C317EDF6310026207C /* ZapposItem.m */; };
+		045D86CD17EDF70B0026207C /* ZapposIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045D86CA17EDF70B0026207C /* ZapposIcon@2x.png */; };
+		045D86CE17EDF70B0026207C /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045D86CB17EDF70B0026207C /* star@2x.png */; };
+		045D86CF17EDF70B0026207C /* email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045D86CC17EDF70B0026207C /* email@2x.png */; };
+		046F13C817EE19EA0058965A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F13C617EE19EA0058965A /* Icon@2x.png */; };
+		046F13C917EE19EA0058965A /* ZappifySplash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F13C717EE19EA0058965A /* ZappifySplash@2x.png */; };
+		046F13CD17EE1BD20058965A /* ZappifySplashSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F13CC17EE1BD20058965A /* ZappifySplashSmall@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045D86A317EDF5E30026207C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045D867217EDF5DF0026207C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045D867917EDF5E00026207C;
+			remoteInfo = Zappify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045D867A17EDF5E00026207C /* Zappify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zappify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045D867D17EDF5E00026207C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		045D867F17EDF5E00026207C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		045D868117EDF5E00026207C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		045D868517EDF5E00026207C /* Zappify-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zappify-Info.plist"; sourceTree = "<group>"; };
+		045D868717EDF5E00026207C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		045D868917EDF5E00026207C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045D868B17EDF5E00026207C /* Zappify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zappify-Prefix.pch"; sourceTree = "<group>"; };
+		045D868C17EDF5E10026207C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		045D868D17EDF5E10026207C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		045D869017EDF5E10026207C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045D869817EDF5E20026207C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		045D869E17EDF5E30026207C /* ZappifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZappifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045D869F17EDF5E30026207C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		045D86A717EDF5E30026207C /* ZappifyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZappifyTests-Info.plist"; sourceTree = "<group>"; };
+		045D86A917EDF5E30026207C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		045D86AB17EDF5E40026207C /* ZappifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZappifyTests.m; sourceTree = "<group>"; };
+		045D86B517EDF6270026207C /* IBRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBRoundedButton.h; sourceTree = "<group>"; };
+		045D86B617EDF6270026207C /* IBRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBRoundedButton.m; sourceTree = "<group>"; };
+		045D86B817EDF6310026207C /* ZapposSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZapposSearchViewController.h; sourceTree = "<group>"; };
+		045D86B917EDF6310026207C /* ZapposSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZapposSearchViewController.m; sourceTree = "<group>"; };
+		045D86BA17EDF6310026207C /* ZapposFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZapposFavoritesViewController.h; sourceTree = "<group>"; };
+		045D86BB17EDF6310026207C /* ZapposFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZapposFavoritesViewController.m; sourceTree = "<group>"; };
+		045D86BC17EDF6310026207C /* ZapposItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZapposItemView.h; sourceTree = "<group>"; };
+		045D86BD17EDF6310026207C /* ZapposItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZapposItemView.m; sourceTree = "<group>"; };
+		045D86BE17EDF6310026207C /* ZapposItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZapposItemCell.h; sourceTree = "<group>"; };
+		045D86BF17EDF6310026207C /* ZapposItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZapposItemCell.m; sourceTree = "<group>"; };
+		045D86C017EDF6310026207C /* ZapposBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZapposBrain.h; sourceTree = "<group>"; };
+		045D86C117EDF6310026207C /* ZapposBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZapposBrain.m; sourceTree = "<group>"; };
+		045D86C217EDF6310026207C /* ZapposItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZapposItem.h; sourceTree = "<group>"; };
+		045D86C317EDF6310026207C /* ZapposItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZapposItem.m; sourceTree = "<group>"; };
+		045D86CA17EDF70B0026207C /* ZapposIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZapposIcon@2x.png"; sourceTree = "<group>"; };
+		045D86CB17EDF70B0026207C /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		045D86CC17EDF70B0026207C /* email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email@2x.png"; sourceTree = "<group>"; };
+		046F13C617EE19EA0058965A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		046F13C717EE19EA0058965A /* ZappifySplash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZappifySplash@2x.png"; sourceTree = "<group>"; };
+		046F13CC17EE1BD20058965A /* ZappifySplashSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZappifySplashSmall@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045D867717EDF5E00026207C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045D868017EDF5E00026207C /* CoreGraphics.framework in Frameworks */,
+				045D868217EDF5E00026207C /* UIKit.framework in Frameworks */,
+				045D867E17EDF5E00026207C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045D869B17EDF5E30026207C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045D86A017EDF5E30026207C /* XCTest.framework in Frameworks */,
+				045D86A217EDF5E30026207C /* UIKit.framework in Frameworks */,
+				045D86A117EDF5E30026207C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045D867117EDF5DF0026207C = {
+			isa = PBXGroup;
+			children = (
+				045D868317EDF5E00026207C /* Zappify */,
+				045D86A517EDF5E30026207C /* ZappifyTests */,
+				045D867C17EDF5E00026207C /* Frameworks */,
+				045D867B17EDF5E00026207C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045D867B17EDF5E00026207C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045D867A17EDF5E00026207C /* Zappify.app */,
+				045D869E17EDF5E30026207C /* ZappifyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045D867C17EDF5E00026207C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045D867D17EDF5E00026207C /* Foundation.framework */,
+				045D867F17EDF5E00026207C /* CoreGraphics.framework */,
+				045D868117EDF5E00026207C /* UIKit.framework */,
+				045D869F17EDF5E30026207C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		045D868317EDF5E00026207C /* Zappify */ = {
+			isa = PBXGroup;
+			children = (
+				045D868C17EDF5E10026207C /* AppDelegate.h */,
+				045D868D17EDF5E10026207C /* AppDelegate.m */,
+				045D868F17EDF5E10026207C /* Main.storyboard */,
+				046F13C517EDF9840058965A /* Brain */,
+				046F13C317EDF96A0058965A /* Views */,
+				046F13C417EDF9790058965A /* Helper Classes */,
+				045D869817EDF5E20026207C /* Images.xcassets */,
+				046F13CE17EE1BF80058965A /* Images */,
+				045D868417EDF5E00026207C /* Supporting Files */,
+			);
+			path = Zappify;
+			sourceTree = "<group>";
+		};
+		045D868417EDF5E00026207C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				045D868517EDF5E00026207C /* Zappify-Info.plist */,
+				045D868617EDF5E00026207C /* InfoPlist.strings */,
+				045D868917EDF5E00026207C /* main.m */,
+				045D868B17EDF5E00026207C /* Zappify-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		045D86A517EDF5E30026207C /* ZappifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				045D86AB17EDF5E40026207C /* ZappifyTests.m */,
+				045D86A617EDF5E30026207C /* Supporting Files */,
+			);
+			path = ZappifyTests;
+			sourceTree = "<group>";
+		};
+		045D86A617EDF5E30026207C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				045D86A717EDF5E30026207C /* ZappifyTests-Info.plist */,
+				045D86A817EDF5E30026207C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046F13C317EDF96A0058965A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				045D86B817EDF6310026207C /* ZapposSearchViewController.h */,
+				045D86B917EDF6310026207C /* ZapposSearchViewController.m */,
+				045D86BA17EDF6310026207C /* ZapposFavoritesViewController.h */,
+				045D86BB17EDF6310026207C /* ZapposFavoritesViewController.m */,
+				045D86BC17EDF6310026207C /* ZapposItemView.h */,
+				045D86BD17EDF6310026207C /* ZapposItemView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		046F13C417EDF9790058965A /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				045D86B517EDF6270026207C /* IBRoundedButton.h */,
+				045D86B617EDF6270026207C /* IBRoundedButton.m */,
+				045D86BE17EDF6310026207C /* ZapposItemCell.h */,
+				045D86BF17EDF6310026207C /* ZapposItemCell.m */,
+				045D86C217EDF6310026207C /* ZapposItem.h */,
+				045D86C317EDF6310026207C /* ZapposItem.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		046F13C517EDF9840058965A /* Brain */ = {
+			isa = PBXGroup;
+			children = (
+				045D86C017EDF6310026207C /* ZapposBrain.h */,
+				045D86C117EDF6310026207C /* ZapposBrain.m */,
+			);
+			name = Brain;
+			sourceTree = "<group>";
+		};
+		046F13CE17EE1BF80058965A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				045D86CA17EDF70B0026207C /* ZapposIcon@2x.png */,
+				045D86CB17EDF70B0026207C /* star@2x.png */,
+				045D86CC17EDF70B0026207C /* email@2x.png */,
+				046F13C617EE19EA0058965A /* Icon@2x.png */,
+				046F13C717EE19EA0058965A /* ZappifySplash@2x.png */,
+				046F13CC17EE1BD20058965A /* ZappifySplashSmall@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045D867917EDF5E00026207C /* Zappify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045D86AF17EDF5E40026207C /* Build configuration list for PBXNativeTarget "Zappify" */;
+			buildPhases = (
+				045D867617EDF5E00026207C /* Sources */,
+				045D867717EDF5E00026207C /* Frameworks */,
+				045D867817EDF5E00026207C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zappify;
+			productName = Zappify;
+			productReference = 045D867A17EDF5E00026207C /* Zappify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		045D869D17EDF5E30026207C /* ZappifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045D86B217EDF5E40026207C /* Build configuration list for PBXNativeTarget "ZappifyTests" */;
+			buildPhases = (
+				045D869A17EDF5E30026207C /* Sources */,
+				045D869B17EDF5E30026207C /* Frameworks */,
+				045D869C17EDF5E30026207C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045D86A417EDF5E30026207C /* PBXTargetDependency */,
+			);
+			name = ZappifyTests;
+			productName = ZappifyTests;
+			productReference = 045D869E17EDF5E30026207C /* ZappifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045D867217EDF5DF0026207C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ian Burns";
+				TargetAttributes = {
+					045D869D17EDF5E30026207C = {
+						TestTargetID = 045D867917EDF5E00026207C;
+					};
+				};
+			};
+			buildConfigurationList = 045D867517EDF5DF0026207C /* Build configuration list for PBXProject "Zappify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045D867117EDF5DF0026207C;
+			productRefGroup = 045D867B17EDF5E00026207C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045D867917EDF5E00026207C /* Zappify */,
+				045D869D17EDF5E30026207C /* ZappifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045D867817EDF5E00026207C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F13CD17EE1BD20058965A /* ZappifySplashSmall@2x.png in Resources */,
+				045D86CD17EDF70B0026207C /* ZapposIcon@2x.png in Resources */,
+				045D86CE17EDF70B0026207C /* star@2x.png in Resources */,
+				046F13C817EE19EA0058965A /* Icon@2x.png in Resources */,
+				045D869917EDF5E20026207C /* Images.xcassets in Resources */,
+				045D868817EDF5E00026207C /* InfoPlist.strings in Resources */,
+				045D869117EDF5E10026207C /* Main.storyboard in Resources */,
+				045D86CF17EDF70B0026207C /* email@2x.png in Resources */,
+				046F13C917EE19EA0058965A /* ZappifySplash@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045D869C17EDF5E30026207C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045D86AA17EDF5E30026207C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045D867617EDF5E00026207C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045D86C717EDF6310026207C /* ZapposItemCell.m in Sources */,
+				045D86C417EDF6310026207C /* ZapposSearchViewController.m in Sources */,
+				045D86C917EDF6310026207C /* ZapposItem.m in Sources */,
+				045D86C617EDF6310026207C /* ZapposItemView.m in Sources */,
+				045D868E17EDF5E10026207C /* AppDelegate.m in Sources */,
+				045D86C517EDF6310026207C /* ZapposFavoritesViewController.m in Sources */,
+				045D868A17EDF5E00026207C /* main.m in Sources */,
+				045D86B717EDF6270026207C /* IBRoundedButton.m in Sources */,
+				045D86C817EDF6310026207C /* ZapposBrain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045D869A17EDF5E30026207C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045D86AC17EDF5E40026207C /* ZappifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045D86A417EDF5E30026207C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045D867917EDF5E00026207C /* Zappify */;
+			targetProxy = 045D86A317EDF5E30026207C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		045D868617EDF5E00026207C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045D868717EDF5E00026207C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		045D868F17EDF5E10026207C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045D869017EDF5E10026207C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045D86A817EDF5E30026207C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045D86A917EDF5E30026207C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045D86AD17EDF5E40026207C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		045D86AE17EDF5E40026207C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045D86B017EDF5E40026207C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zappify/Zappify-Prefix.pch";
+				INFOPLIST_FILE = "Zappify/Zappify-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		045D86B117EDF5E40026207C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zappify/Zappify-Prefix.pch";
+				INFOPLIST_FILE = "Zappify/Zappify-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		045D86B317EDF5E40026207C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zappify.app/Zappify";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zappify/Zappify-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZappifyTests/ZappifyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		045D86B417EDF5E40026207C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zappify.app/Zappify";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zappify/Zappify-Prefix.pch";
+				INFOPLIST_FILE = "ZappifyTests/ZappifyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045D867517EDF5DF0026207C /* Build configuration list for PBXProject "Zappify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045D86AD17EDF5E40026207C /* Debug */,
+				045D86AE17EDF5E40026207C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045D86AF17EDF5E40026207C /* Build configuration list for PBXNativeTarget "Zappify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045D86B017EDF5E40026207C /* Debug */,
+				045D86B117EDF5E40026207C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045D86B217EDF5E40026207C /* Build configuration list for PBXNativeTarget "ZappifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045D86B317EDF5E40026207C /* Debug */,
+				045D86B417EDF5E40026207C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045D867217EDF5DF0026207C /* Project object */;
+}
